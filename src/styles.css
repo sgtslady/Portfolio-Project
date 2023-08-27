@@ -30,7 +30,7 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: var(--branding-color);
   text-align: center;
   padding: 160px 20px;
 }
