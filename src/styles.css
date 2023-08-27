@@ -1,9 +1,50 @@
+:root {
+  --branding-color: #78ce0a;
+  --secondary-color: #11b1bb;
+  --line-color: #9747ff;
+  --heading-font-family: "Alegreya Sans SC", sans-serif;
+  --default-font-family: "Alegreya Sans", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
 h1 {
-  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 72px;
 }
 
 p {
-  font-family: "Alegreya Sans", sans-serif;
+  font-weight: normal;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
   font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
 }
