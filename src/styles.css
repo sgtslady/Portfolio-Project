@@ -29,10 +29,39 @@ p {
   font-weight: normal;
 }
 
+#logo {
+  max-height: 140px;
+  margin-top: 8px;
+}
+
+#home {
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  margin-top: 120px;
+}
+
+#about-me {
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  margin-top: 120px;
+}
+
+#my-portfolio {
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  margin-top: 120px;
+}
+
+#contact-me {
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  margin-top: 120px;
+}
+
 .hero {
   background: var(--branding-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -47,4 +76,43 @@ p {
   font-weight: bold;
   line-height: 2;
   font-size: 24px;
+}
+
+#welcome {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.btn-branding {
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+}
+
+#about {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 32px;
+  margin-right: 24px;
+}
+
+#portfolio {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 32px;
+  margin-right: 24px;
+}
+
+#contact {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 32px;
+}
+
+.container p {
+  color: white;
+  font-weight: bold;
+  line-height: 30px;
+  margin-top: 32px;
 }
