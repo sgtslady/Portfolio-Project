@@ -1,7 +1,8 @@
 :root {
-  --branding-color: #78ce0a;
-  --secondary-color: #11b1bb;
+  --branding-color: #79ce0a5a;
+  --secondary-color: #11b0bb52;
   --line-color: #9747ff;
+  --bs-bg-opacity: 0.25;
   --heading-font-family: "Alegreya Sans SC", sans-serif;
   --default-font-family: "Alegreya Sans", sans-serif;
 }
@@ -30,42 +31,49 @@ p {
 }
 
 #logo {
-  max-height: 140px;
+  max-width: 600px;
   margin-top: 8px;
+}
+
+#header {
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  margin-top: 20px;
+  padding-left: 64px;
 }
 
 #home {
   font-family: var(--heading-font-family);
-  font-size: 18px;
-  margin-top: 120px;
+  font-size: 16px;
+  margin-top: 20px;
 }
 
 #about-me {
   font-family: var(--heading-font-family);
-  font-size: 18px;
-  margin-top: 120px;
+  font-size: 16px;
+  margin-top: 20px;
 }
 
 #my-portfolio {
   font-family: var(--heading-font-family);
-  font-size: 18px;
-  margin-top: 120px;
+  font-size: 16px;
+  margin-top: 20px;
 }
 
 #contact-me {
   font-family: var(--heading-font-family);
-  font-size: 18px;
-  margin-top: 120px;
+  font-size: 16px;
+  margin-top: 20px;
 }
 
 .hero {
-  background: var(--branding-color);
+  background-color: var(--branding-color);
   text-align: center;
-  padding: 100px 20px;
+  padding: 60px 20px;
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: bold;
   margin: 0;
   color: #272142;
@@ -111,7 +119,7 @@ p {
 }
 
 .container p {
-  color: white;
+  color: rgb(3, 3, 3);
   font-weight: bold;
   line-height: 30px;
   margin-top: 32px;
