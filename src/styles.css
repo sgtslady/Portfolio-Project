@@ -124,3 +124,23 @@ p {
   line-height: 30px;
   margin-top: 32px;
 }
+
+#about-me-section {
+  background: var(--secondary-color);
+  margin: 130px 100px;
+}
+
+#meghan-pic {
+  text-align: center;
+  padding: 32px;
+
+  margin-right: 24px;
+  max-width: 400px;
+}
+
+#paragraphs {
+  padding: 32px;
+  font: var(--default-font-family);
+  font-size: 24px;
+  margin-left: 190px;
+}
