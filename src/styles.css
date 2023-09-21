@@ -100,22 +100,35 @@ p {
 
 #about {
   background: var(--secondary-color);
+  padding: 30px 30px;
+  margin: 24px;
   text-align: center;
-  padding: 32px;
-  margin-right: 24px;
 }
 
 #portfolio {
   background: var(--secondary-color);
+  padding: 30px 30px;
+  margin: 24px;
   text-align: center;
-  padding: 32px;
-  margin-right: 24px;
 }
 
 #contact {
   background: var(--secondary-color);
+  padding: 30px 30px;
+  margin: 24px;
   text-align: center;
-  padding: 32px;
+}
+
+#megs {
+  border: 2pt solid var(--line-color);
+}
+
+#coding {
+  border: 2pt solid var(--line-color);
+}
+
+#contact-page {
+  border: 2pt solid var(--line-color);
 }
 
 .container p {
@@ -127,20 +140,17 @@ p {
 
 #about-me-section {
   background: var(--secondary-color);
-  margin: 130px 100px;
+  padding: 30px;
+  margin: 60px 100px;
 }
 
 #meghan-pic {
-  text-align: center;
-  padding: 32px;
-
-  margin-right: 24px;
+  border: 2pt solid var(--line-color);
+  margin-right: 32px;
   max-width: 400px;
 }
 
 #paragraphs {
-  padding: 32px;
   font: var(--default-font-family);
   font-size: 24px;
-  margin-left: 190px;
 }

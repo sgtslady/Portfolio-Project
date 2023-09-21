@@ -28,16 +28,42 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="row">
-      <div class="col-8" id="header">Meghan McIntire</div>
-      <div class="col-1" id="home">Home</div>
-      <div class="col-1" id="about-me">About</div>
-      <div class="col-1" id="my-portfolio">Portfolio</div>
-      <div class="col-1" id="contact-me">Contact</div>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Meghan McIntire</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="hero" id="bg-success p-2 text-dark bg-opacity-10">
       <img
-        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/919/original/__%282%29.png?1693194812"
+        src="images/logo.png"
         alt="logo"
         class="img-fluid"
         max-height="50px"
@@ -47,47 +73,43 @@
       <h2 class="mb-5">Designer & Front-end developer based in Oregon</h2>
     </div>
     <p class="text-center m-5" id="welcome">Welcome to my portfolio!</p>
-    <div class="container">
+    <div class="container" id="options">
       <div class="row">
-        <div class="col-sm" id="about">
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/908/original/Untitled_design_%2825%29.png?1693186831"
-            class="img-fluid"
-            alt="Meghan"
-          />
-          <p class="mb-5">
-            I am looking forward to shering my space with others. I hope this
-            page inspires and encourages more women to code. Click below to
-            learn more abouot me.
-          </p>
-          <a href="" class="btn btn-branding"> ABOUT </a>
-        </div>
-        <div class="col-sm" id="portfolio">
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/910/original/Untitled_design_%2823%29.png?1693186852"
-            class="img-fluid"
-            alt="Coding"
-          />
-          <p class="mb-5">
-            My portfolio grows with my knowledge and training. With an art
-            background, I can design and code. Please take a moment to look
-            through my design and coding ork.
-          </p>
-          <a href="" class="btn btn-branding"> PORTFOLIO </a>
-        </div>
-        <div class="col-sm" id="contact">
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/909/original/Untitled_design_%2824%29.png?1693186840"
-            class="img-fluid"
-            alt="Contact"
-          />
-          <p class="mb-5">
-            If you see something you like, have questins about my work, or would
-            like to know more information about coding please contact me.
-          </p>
-          <a href="" class="btn btn-branding"> CONTACT </a>
+        <div class="d-flex justify-content-around">
+          <div class="col-sm-4" id="about">
+            <img src="images/megs.png" class="img-fluid" alt="Meghan" id="megs-pic"/>
+            <p>
+              I am looking forward to shering my space with others. I hope this
+              page inspires and encourages more women to code. Click below to
+              learn more abouot me.
+            </p>
+            <a href="about.html" class="btn btn-branding"> ABOUT </a>
+          </div>
+          <div class="col-sm-4" id="portfolio">
+            <img src="images/coding.png" class="img-fluid" alt="Coding" id="coding"/>
+            <p>
+              My portfolio grows with my knowledge and training. With an art
+              background, I can design and code. Please take a moment to look
+              through my design and coding ork.
+            </p>
+            <a href="" class="btn btn-branding"> PORTFOLIO </a>
+          </div>
+          <div class="col-sm-4" id="contact">
+            <img src="images/contact.png" class="img-fluid" alt="Contact" id="contact-page"/>
+            <p>
+              If you see something you like, have questins about my work, or
+              would like to know more information about coding please contact
+              me.
+            </p>
+            <a href="" class="btn btn-branding"> CONTACT </a>
+          </div>
         </div>
       </div>
-    </div>
+      <footer class="bg text-center text-lg-start">
+  <div class="text-center p-3">
+     Designed and coded by: Meghan McIntire - 
+    <a class="text-dark" href="#">Open-Sourced</a><a> for public use.</a>
+  </div>
+</footer>
   </body>
 </html>
