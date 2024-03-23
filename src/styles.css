@@ -155,11 +155,9 @@ p {
   font-size: 24px;
 }
 
-#aboutPainting {
-  font: var(--default-font-family);
-  font-size: 24px;
-  color: rgb(3, 3, 3);
-  font-weight: bold;
-  line-height: 30px;
-  margin-top: 32px;
+.grid {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
