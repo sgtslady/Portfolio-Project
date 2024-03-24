@@ -158,6 +158,6 @@ p {
 .grid {
   margin: 20px 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
 }
