@@ -250,7 +250,6 @@ p {
   padding: 30px 30px;
   margin: 24px 24px;
   text-align: center;
-  border: 2pt solid var(--line-color);
 }
 
 #clock {
@@ -266,14 +265,12 @@ p {
   padding: 30px 30px;
   margin: 24px 24px;
   text-align: center;
-  border: 2pt solid var(--line-color);
 }
 #weather {
   width: 90%;
   padding: 15px 15px;
   margin: 24px;
   text-align: center;
-  border: 2pt solid var(--line-color);
 }
 .weather-lesson {
   width: 90%;
@@ -281,5 +278,4 @@ p {
   padding: 30px 30px;
   margin: 24px 24px;
   text-align: center;
-  border: 2pt solid var(--line-color);
 }
