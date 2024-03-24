@@ -237,12 +237,14 @@ p {
   border: 2pt solid var(--line-color);
 }
 #painting {
+  width: 90%;
   padding: 15px 15px;
   margin: 24px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
 .painting-lesson {
+  width: 90%;
   background: var(--secondary-color);
   padding: 30px 30px;
   margin: 24px 24px;
@@ -258,6 +260,7 @@ p {
   border: 2pt solid var(--line-color);
 }
 .clock-lesson {
+  width: 90%;
   background: var(--secondary-color);
   padding: 30px 30px;
   margin: 24px 24px;
@@ -265,12 +268,14 @@ p {
   border: 2pt solid var(--line-color);
 }
 #weather {
+  width: 90%;
   padding: 15px 15px;
   margin: 24px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
 .weather-lesson {
+  width: 90%;
   background: var(--secondary-color);
   padding: 30px 30px;
   margin: 24px 24px;
