@@ -251,13 +251,13 @@ p {
 }
 
 #clock {
+  width: 50%;
   padding: 15px 15px;
   margin: 24px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
 .clock-lesson {
-  width: 25%;
   background: var(--secondary-color);
   padding: 30px 30px;
   margin: 24px 24px;
