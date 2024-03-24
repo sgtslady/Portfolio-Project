@@ -161,3 +161,34 @@ p {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
+
+#contactPage {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#email {
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#linkedin {
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#fb {
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#insta {
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  margin-top: 20px;
+}
