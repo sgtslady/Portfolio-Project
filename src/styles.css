@@ -224,3 +224,15 @@ p {
 #email-me {
   border: 2pt solid var(--line-color);
 }
+
+#linkeddin-page {
+  border: 2pt solid var(--line-color);
+}
+
+#facebook-page {
+  border: 2pt solid var(--line-color);
+}
+
+#instagram {
+  border: 2pt solid var(--line-color);
+}
