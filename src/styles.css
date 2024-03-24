@@ -276,7 +276,7 @@ p {
 .weather-lesson {
   width: 90%;
   background: var(--secondary-color);
-  padding: 30px 30px;
+  padding: 60px 60px;
   margin: 24px;
   text-align: center;
 }
