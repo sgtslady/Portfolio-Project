@@ -239,7 +239,7 @@ p {
 #painting {
   width: 90%;
   padding: 15px 15px;
-  margin: 48px 12px;
+  margin: 64px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
