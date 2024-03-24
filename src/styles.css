@@ -249,3 +249,30 @@ p {
   text-align: center;
   border: 2pt solid var(--line-color);
 }
+
+#clock {
+  padding: 30px 30px;
+  margin: 24px;
+  text-align: center;
+  border: 2pt solid var(--line-color);
+}
+.clock-lesson {
+  background: var(--secondary-color);
+  padding: 30px 30px;
+  margin: 24px;
+  text-align: center;
+  border: 2pt solid var(--line-color);
+}
+#weather {
+  padding: 30px 30px;
+  margin: 24px;
+  text-align: center;
+  border: 2pt solid var(--line-color);
+}
+.weather-lesson {
+  background: var(--secondary-color);
+  padding: 30px 30px;
+  margin: 24px;
+  text-align: center;
+  border: 2pt solid var(--line-color);
+}
