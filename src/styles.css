@@ -267,16 +267,16 @@ p {
   text-align: center;
 }
 #weather {
-  width: 90%;
+  width: 95%;
   padding: 15px 15px;
-  margin: 64px;
+  margin: 64px 32px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
 .weather-lesson {
-  width: 90%;
+  width: 95%;
   background: var(--secondary-color);
   padding: 15px 15px;
-  margin: 64px;
+  margin: 64px 6px;
   text-align: center;
 }
