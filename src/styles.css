@@ -169,7 +169,7 @@ p {
   grid-gap: 20px;
 }
 
-#email {
+#emails {
   font-family: var(--heading-font-family);
   font-size: 16px;
   margin-top: 20px;
