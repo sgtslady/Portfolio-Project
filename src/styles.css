@@ -252,19 +252,19 @@ p {
 
 #clock {
   padding: 15px 15px;
-
+  margin: 24px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
 .clock-lesson {
   background: var(--secondary-color);
   padding: 30px 30px;
-  margin: 24px;
+  margin: 24px 24px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
 #weather {
-  padding: 30px 30px;
+  padding: 15px 15px;
   margin: 24px;
   text-align: center;
   border: 2pt solid var(--line-color);
@@ -272,7 +272,7 @@ p {
 .weather-lesson {
   background: var(--secondary-color);
   padding: 30px 30px;
-  margin: 24px;
+  margin: 24px 24px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
