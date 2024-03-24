@@ -251,7 +251,7 @@ p {
 }
 
 #clock {
-  margin: 24px;
+  margin: 32px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
