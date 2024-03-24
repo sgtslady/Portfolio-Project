@@ -253,17 +253,17 @@ p {
 }
 
 #clock {
-  width: 90%;
+  width: 95%;
   padding: 15px 15px;
-  margin: 64px 32px;
+  margin: 64px 6px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
 .clock-lesson {
   width: 90%;
   background: var(--secondary-color);
-  padding: 30px 30px;
-  margin: 64px;
+  padding: 15px 15px;
+  margin: 64px 32px;
   text-align: center;
 }
 #weather {
