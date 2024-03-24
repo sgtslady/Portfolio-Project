@@ -192,3 +192,31 @@ p {
   font-size: 16px;
   margin-top: 20px;
 }
+
+#emails {
+  background: var(--secondary-color);
+  padding: 30px 30px;
+  margin: 24px;
+  text-align: center;
+}
+
+#linkedin {
+  background: var(--secondary-color);
+  padding: 30px 30px;
+  margin: 24px;
+  text-align: center;
+}
+
+#fb {
+  background: var(--secondary-color);
+  padding: 30px 30px;
+  margin: 24px;
+  text-align: center;
+}
+
+#insta {
+  background: var(--secondary-color);
+  padding: 30px 30px;
+  margin: 24px;
+  text-align: center;
+}
