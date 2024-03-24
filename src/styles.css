@@ -260,7 +260,7 @@ p {
   border: 2pt solid var(--line-color);
 }
 .clock-lesson {
-  width: 90%;
+  width: 95%;
   background: var(--secondary-color);
   padding: 15px 15px;
   margin: 64px 32px;
