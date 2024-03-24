@@ -245,7 +245,7 @@ p {
 .painting-lesson {
   background: var(--secondary-color);
   padding: 30px 30px;
-  margin: 12px 30px;
+  margin: 24px 24px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
