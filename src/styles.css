@@ -251,7 +251,6 @@ p {
 }
 
 #clock {
-  padding: 30px 30px;
   margin: 24px;
   text-align: center;
   border: 2pt solid var(--line-color);
@@ -259,7 +258,7 @@ p {
 .clock-lesson {
   background: var(--secondary-color);
   padding: 30px 30px;
-  margin: 12px;
+  margin: 24px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
