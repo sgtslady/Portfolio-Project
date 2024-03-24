@@ -237,7 +237,7 @@ p {
   border: 2pt solid var(--line-color);
 }
 #painting {
-  width: 90%;
+  width: 95%;
   padding: 15px 15px;
   margin: 64px 32px;
   text-align: center;
@@ -245,7 +245,7 @@ p {
 }
 
 .painting-lesson {
-  width: 90%;
+  width: 95%;
   background: var(--secondary-color);
   padding: 15px 15px;
   margin: 64px 32px;
