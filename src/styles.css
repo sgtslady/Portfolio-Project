@@ -236,7 +236,12 @@ p {
 #instagram {
   border: 2pt solid var(--line-color);
 }
-
+#painting {
+  padding: 30px 30px;
+  margin: 24px;
+  text-align: center;
+  border: 2pt solid var(--line-color);
+}
 .painting-lesson {
   background: var(--secondary-color);
   padding: 30px 30px;
