@@ -248,7 +248,7 @@ p {
   width: 90%;
   background: var(--secondary-color);
   padding: 15px 15px;
-  margin: 64px;
+  margin: 32px 64px;
   text-align: center;
 }
 
