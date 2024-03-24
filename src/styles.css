@@ -243,6 +243,7 @@ p {
   text-align: center;
   border: 2pt solid var(--line-color);
 }
+
 .painting-lesson {
   width: 90%;
   background: var(--secondary-color);
