@@ -239,7 +239,7 @@ p {
 #painting {
   width: 95%;
   padding: 15px 15px;
-  margin: 64px 32px;
+  margin: 6px 32px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
@@ -248,14 +248,14 @@ p {
   width: 95%;
   background: var(--secondary-color);
   padding: 15px 15px;
-  margin: 64px 6px;
+  margin: 6px 6px;
   text-align: center;
 }
 
 #clock {
   width: 95%;
   padding: 15px 15px;
-  margin: 64px 6px;
+  margin: 6px 6px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
@@ -263,13 +263,13 @@ p {
   width: 95%;
   background: var(--secondary-color);
   padding: 15px 15px;
-  margin: 64px 32px;
+  margin: 6px 32px;
   text-align: center;
 }
 #weather {
   width: 95%;
   padding: 15px 15px;
-  margin: 64px 32px;
+  margin: 6px 32px;
   text-align: center;
   border: 2pt solid var(--line-color);
 }
@@ -277,6 +277,6 @@ p {
   width: 95%;
   background: var(--secondary-color);
   padding: 15px 15px;
-  margin: 64px 6px;
+  margin: 6px 6px;
   text-align: center;
 }
